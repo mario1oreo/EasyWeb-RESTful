@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="EasyWeb-RESTful"
+  id="myeclipse.1516947114790"
+  context-root="/EasyWeb-RESTful"
+  j2ee-spec="5.0"
+  archive="EasyWeb-RESTful.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

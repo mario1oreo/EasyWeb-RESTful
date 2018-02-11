@@ -1,0 +1,19 @@
+<div class="content-header">
+	<h2 class="content-title">登录日志</h2>
+	<span class="layui-breadcrumb">
+	  <a href="#!home">首页</a>
+	  <a><cite>登录日志</cite></a>
+	</span>
+</div>
+
+<div>
+	<div class="layui-form toolbar">
+		账号：<input id="searchAccount" class="layui-input search-input" type="text" placeholder="请输入账号" />&emsp;
+		日期：<input id="searchDate" class="layui-input search-input date-icon" type="text" placeholder="请选择日期范围" style="width: 175px;" />&emsp;
+		<button id="searchBtn" class="layui-btn search-btn"><i class="layui-icon">&#xe615;</i>搜索</button>
+	</div>
+	<!-- 数据表格 -->
+	<table class="layui-table" id="table" lay-filter="table"></table>
+</div>
+
+<script type="text/javascript" src="assets/js/system/loginRecord.js"></script>

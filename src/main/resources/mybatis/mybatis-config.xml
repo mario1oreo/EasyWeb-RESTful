@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!-- 打印查询语句 -->
+		<setting name="logImpl" value="LOG4J" />
+	</settings>
+	<plugins>
+		<!-- 分页插件 -->
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+			<!-- pageSize=0查询出全部结果 -->
+			<property name="pageSizeZero" value="true" />
+		</plugin>
+	</plugins>
+</configuration>

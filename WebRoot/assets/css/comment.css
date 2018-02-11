@@ -1,0 +1,137 @@
+/**取消导航栏下面的线条*/
+.layui-header .layui-nav .layui-this:after,.layui-header .layui-nav-bar
+	{
+	display: none;
+}
+
+/**重写侧边栏的宽度*/
+.layui-layout-admin .layui-side {
+	width: 250px;
+}
+
+.layui-nav-tree {
+	width: 250px;
+}
+
+.layui-side-scroll {
+	width: 270px;
+}
+
+.layui-nav-tree .layui-nav-more {
+	right: 20px;
+}
+
+.layui-body {
+	left: 250px;
+}
+
+.layui-layout-admin .layui-footer {
+	left: 250px;
+}
+
+.layui-layout-left {
+	left: 250px;
+	padding: 0;
+}
+
+/**重写header的背景色和字体颜色*/
+.layui-layout-admin .layui-header {
+	background-color: #ffffff;
+	box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+.layui-layout-admin .layui-header .layui-nav .layui-nav-item a {
+	color: #4a4a4a;
+}
+
+.layui-layout-admin .layui-header .layui-nav .layui-nav-more {
+	border-color: #4a4a4a transparent transparent;
+}
+
+.layui-layout-admin .layui-header .layui-nav .layui-nav-mored {
+	border-color: transparent transparent #4a4a4a;
+}
+
+.layui-layout-admin .layui-body {
+	background-color: #F0F2F5;
+}
+
+/**重写侧边栏的字体位置*/
+.layui-layout-admin .layui-side .layui-nav .layui-nav-item .layui-nav-child a
+	{
+	padding-left: 50px;
+}
+
+/**重写header的logo部分颜色*/
+.layui-layout-admin .layui-logo {
+	width: 250px;
+	background-color: #4E5465;
+	color: #fff;
+	font-size: 20px;
+	font-family: Myriad Pro, Helvetica Neue, Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	overflow: hidden;
+}
+
+.layui-layer-page .layui-layer-content {
+	overflow: visible !important;
+}
+
+/**内容标题样式*/
+.content-title {
+	font-size: 20px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, .85);
+	display: inline;
+}
+
+.content-header .layui-breadcrumb {
+	float: right;
+	margin-right: 10px;
+}
+
+.content-header {
+	margin-bottom: 20px;
+}
+
+/**表格搜索框样式*/
+.search-input {
+	width: 150px;
+	display: inline-block;
+	height: 36px;
+	vertical-align: middle;
+	padding: 3px 6px;
+}
+
+.layui-btn:not(.layui-btn-lg):not(.layui-btn-sm):not(.layui-btn-xs){
+	height: 34px;
+	line-height: 34px;
+}
+
+.search-btn {
+	padding: 0 8px;
+}
+
+.toolbar {
+	color: #333333;
+}
+
+.toolbar .layui-form-select input {
+	height: 35px;
+	line-height: 35px;
+	width: 150px;
+	overflow: hidden;
+}
+
+.toolbar .layui-form-select {
+	display: inline-block;
+}
+
+.model-form {
+	padding-top: 30px;
+	padding-right: 45px;
+}
+
+.model-form-footer {
+	text-align: right;
+}

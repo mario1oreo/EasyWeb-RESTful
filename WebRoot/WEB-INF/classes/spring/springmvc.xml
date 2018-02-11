@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context 
+           http://www.springframework.org/schema/context/spring-context.xsd
+           http://www.springframework.org/schema/aop 
+           http://www.springframework.org/schema/aop/spring-aop.xsd
+           http://www.springframework.org/schema/mvc 
+           http://www.springframework.org/schema/mvc/spring-mvc.xsd ">
+
+	<!-- 使用注解驱动器代替注解映射器和注解适配器配置 -->
+	<mvc:annotation-driven />
+	<mvc:default-servlet-handler />
+	<!-- 扫描controller,指定controller的包 -->
+	<context:component-scan base-package="com.wf.ew.system.controller" />
+
+	<!-- token拦截器配置 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/api/**" />
+			<mvc:exclude-mapping path="/api/login" />
+			<bean class="com.wf.etp.authz.ApiInterceptor">
+				<property name="userRealm" ref="userRealm" />
+				<property name="cache" ref="etpCache" />
+			</bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+	<!-- 自定义UserRealm -->
+	<bean id="userRealm" class="com.wf.ew.core.auth.UserRealm" />
+	
+	<!-- 自定义缓存实现 -->
+	<bean id="etpCache" class="com.wf.ew.core.auth.EtpCache" />
+
+	<!-- 异常处理 -->
+	<bean id="exceptionHandler" class="com.wf.ew.core.exception.ExceptionHandler" />
+
+</beans>
