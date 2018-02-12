@@ -71,11 +71,11 @@
      
 ### 3、什么是前端路由
    我理解的就是页面局部加载，跟传统的局部刷新不同的就是url也会变化，是把一个url的内容加载到网页的局部区域，而不是整个页面跳转。  
-        
-         
+    
+    
 ## 联系方式
 ### 1、欢迎加入“前后端分离技术交流群”：
 ![群二维码](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/images_qqgroup.png)
-
+      
 ### 2、赞赏项目：
 右上角点个star就行！多谢！ 
