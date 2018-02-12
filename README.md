@@ -77,5 +77,5 @@
 ### 1、欢迎加入“前后端分离技术交流群”：
 ![群二维码](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/images_qqgroup.png)
 
-### 1、赞赏项目：
+### 2、赞赏项目：
 右上角点个star就行！多谢！ 
