@@ -21,6 +21,8 @@
 核心框架(轻量简洁) | [Layui](http://www.layui.com/)、jQuery、zTree
 路由框架(纯js打造) | [Q.js](https://github.com/itorr/q.js) (超级轻量、简单易学)
 
+------------------------
+
 ## 项目截图
 ![登录](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/screenshot_login.png) 
 ![用户管理](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/screenshot_user.png)
@@ -28,6 +30,7 @@
 ![权限管理](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/screenshot_permission.png)
 ![登录日志](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/screenshot_loginrecode.png)
  
+ ---------------------------
  
 ## 疑问说明
 ### 疑问1、为什么不选用Shiro、Auth2.0等知名权限框架？
@@ -56,7 +59,9 @@
 1. iframe，它有很多缺点，我就不说了，它每个页面都要引入css、js，会重复加载资源，造成浪费。
 2. SiteMesh，利用后端技术拼接渲染，浏览器加载页面还是全局刷新，左侧、头部、底部每次都重新加载一遍，用户体验不好。
 3. 路由： 前端路由是真正实现了页面局部刷新，资源重复利用，大大提升用户体验，提高网站的逼格！
-      
+     
+     -------------------
+     
 ## 知识补充
 ### 1、什么是RESTful
 关于RESTful标准的解释我就不说了，我来划一划重点：
@@ -72,6 +77,7 @@
 ### 3、什么是前端路由
    我理解的就是页面局部加载，跟传统的局部刷新不同的就是url也会变化，是把一个url的内容加载到网页的局部区域，而不是整个页面跳转。  
     
+----------------
     
 ## 联系方式
 ### 1、欢迎加入“前后端分离技术交流群”：
