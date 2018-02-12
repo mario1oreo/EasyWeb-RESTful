@@ -1,6 +1,6 @@
 # EasyWeb-RESTful
 ## 简介
-前后端分离模式的后端管理系统模板，后端接口遵循RESTful风格设计，前端页面使用路由实现单页面效果。<br/>
+前后端分离模式的后端管理系统平台，后端接口遵循RESTful风格设计，前端页面使用路由实现单页面效果。<br/>
 演示地址：[http://115.159.40.243:8080/EasyWeb-RESTful](http://115.159.40.243:8080/EasyWeb-RESTful/login.html)。
    
    
@@ -71,3 +71,11 @@
      
 ### 3、什么是前端路由
    我理解的就是页面局部加载，跟传统的局部刷新不同的就是url也会变化，是把一个url的内容加载到网页的局部区域，而不是整个页面跳转。  
+        
+         
+## 联系方式
+### 1、欢迎加入“前后端分离技术交流群”：
+![群二维码](https://github.com/whvcse/EasyWeb-RESTful/blob/master/WebRoot/assets/images/images_qqgroup.png)
+
+### 1、赞赏项目：
+右上角点个star就行！多谢！ 
