@@ -34,7 +34,7 @@
  
 ## 疑问说明
 ### 疑问1、为什么不选用Shiro、Auth2.0等知名权限框架？
-  Shiro是基于Session的权限框架，并不适合于RESTful风格的架构([什么是RESTful？]())，RESTful是一定不能使用Session的。 
+  Shiro是基于Session的权限框架，并不适合于RESTful风格的架构([什么是RESTful？](https://github.com/whvcse/EasyWeb-RESTful#1什么是restful))，RESTful是一定不能使用Session的。 
 网上也有大牛出了Shiro实现RESTful的教程，步骤繁琐不说，这种霸王硬上弓的方法也很不优雅。 Auth2.0是做第三方授权的框架，像
 我们常见的QQ、微信、微博授权登录这样的，并且学习成本高，对于企业项目的内部账号登录验证有点大材小用。 所以这里选用了[EasyTokenPermission](https://github.com/whvcse/EasyTokenPermission)。
         
